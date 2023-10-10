@@ -102,7 +102,6 @@ function Pizza({ pizzaObj }) {
           <span>{pizzaObj.soldout ? "SOLD OUT" : pizzaObj.price}</span>
         </div>
       </>
-      )
     </li>
   );
 }
